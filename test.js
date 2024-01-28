@@ -1,6 +1,6 @@
 export function testVsCode() {
 	const button = document.createElement("button")
-	button.append("test")
+	button.append("test vs-code")
 	document.body.append(button)
 }
 
