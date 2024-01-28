@@ -5,3 +5,4 @@ export function testVsCode() {
 }
 
 export let a = "hello"
+export let b = "vs-code"

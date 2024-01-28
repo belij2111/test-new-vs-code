@@ -1,8 +1,8 @@
-import { a, testVsCode } from "./test.js"
+import { a, b, testVsCode } from "./test.js"
 testVsCode()
 let start = document.getElementsByTagName("button")[0]
 start.addEventListener("click", test)
 
 function test() {
-	console.log(a)
+	console.log(a + " " + b)
 }
